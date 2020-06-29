@@ -1,3 +1,3 @@
 # Sobre mim
-Quer me conhecer? Esse possivelmente é o lugar :)
+Quer saber o que eu faço por aqui, no Github? Aqui pode te ajudar!
 
