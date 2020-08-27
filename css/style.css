@@ -3,7 +3,10 @@
 
 :root {
     --color-green: #50fa7b;
-    --color-purple: #7159c1;
+    --color-state-blue: #7159c1;
+    --color-dark-jungle-green: #182825;
+    --color-columbia-blue: #b7d1d4;
+    --color-capri: #00bbf9;
 }
 
 * {
@@ -13,7 +16,7 @@
 }
 
 body {
-    background-color: #282a36;
+    background-color: var(--color-dark-jungle-green);
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
 }
@@ -57,6 +60,7 @@ header {
     font-size: 42px;
     line-height: 52px;
     font-weight: bold;
+    color: var(--color-columbia-blue);
 }
 
 #wrapper h2 {
@@ -73,6 +77,7 @@ header {
     font-weight: normal;
     margin-top: 8px;
     opacity: 0.8;
+    color: var(--color-capri);
 }
 
 #wrapper p {
@@ -97,7 +102,7 @@ header {
 }
 
 .card {
-    background-color: var(--color-purple);
+    background-color: var(--color-capri);
 }
 
 .card__image-container img {
@@ -121,19 +126,19 @@ header {
 .card__link {
     background-color: var(--color-purple);
     filter: brightness(90%);
-    padding: 5px 20px;
+    padding: 5px 10px;
     border-radius: 20px;
     text-align: center;
 }
 
 .card__link a {
-    color: var(--color-green);
+    color: var(--color-dark-jungle-green);
     text-decoration: none;
 }
 
 .card__link a:hover {
     color: white;
-    border-bottom: 1px solid var(--color-green);
+    border-bottom: 1px solid var(--color-columbia-blue);
     transition: all 200ms;
 }
 
